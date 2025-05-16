@@ -1,46 +1,60 @@
-🔍 Rick and Morty Character Search
-Este é um projeto simples feito para praticar o consumo de APIs utilizando fetch API em JavaScript. A aplicação faz requisições à Rick and Morty API e retorna informações de personagens com base no ID ou Nome inserido pelo usuário.
+🧪 Projeto: Rick and Morty Character Search
+Este projeto foi feito para praticar o consumo de APIs usando fetch API em JavaScript.
+A ideia é simples: buscar personagens da série Rick and Morty pelo ID ou Nome e exibir informações de forma dinâmica.
 
-✨ Funcionalidades
-Buscar personagem pelo ID ou Nome.
+✅ Funcionalidades
+🔎 Busca de personagem por ID ou Nome
 
-Selecionar quais informações deseja exibir (nome, status, espécie, origem, etc).
+✅ Seleção de quais informações exibir (Nome, Status, Espécie, Origem, Episódios, etc.)
 
-Exibição da imagem do personagem.
+🖼️ Exibição da imagem do personagem
 
-Tratamento de erros caso o personagem não seja encontrado.
+🚫 Tratamento de erros (caso o personagem não exista)
 
-Reset para limpar as informações da tela.
+🔄 Botão de Reset para limpar os resultados
 
-🛠️ Tecnologias usadas
-HTML
+🛠️ Tecnologias Utilizadas
+HTML (estrutura da página)
 
-CSS (básico)
+CSS (estilização básica)
 
-JavaScript (vanilla)
+JavaScript Vanilla (sem frameworks)
 
-Fetch API
+Fetch API (requisições assíncronas)
 
 Rick and Morty API pública
 
-🚀 Como usar
-Clone o repositório
+🚀 Como Usar
+Clone o repositório:
+
 Abra o arquivo index.html no navegador.
 
-Insira um ID ou Nome de personagem.
+Digite o ID ou o Nome de um personagem.
 
-Marque as caixas de seleção com as informações que deseja exibir.
+Selecione as informações que deseja exibir.
 
-Clique em Pesquisar.
+Clique em pesquisar.
 
-🎯 Objetivo
-Esse projeto foi desenvolvido com o objetivo de praticar requisições assíncronas com fetch API, trabalhar com JSON, manipulação do DOM e criar interações básicas com o usuário.
+Pronto! A imagem e os dados do personagem serão exibidos.
 
-📚 Aprendizados
-Como consumir APIs com fetch.
+🎯 Objetivo do Projeto
+Praticar o uso da fetch API e aprender na prática:
 
-Tratamento de respostas e erros.
+Como consumir APIs REST.
 
-Atualização dinâmica de elementos no HTML.
+Como lidar com dados em JSON.
 
-Estruturar funções reutilizáveis para requisições.
+Manipular o DOM para atualizar conteúdos.
+
+Lidar com erros e situações inesperadas.
+
+Fazer um projetinho do zero sem frameworks.
+
+🧠 Aprendizados
+Entender requisições assíncronas.
+
+Como estruturar funções para consumir APIs.
+
+Exibir dados dinamicamente no HTML.
+
+Melhorar lógica de tratamento de respostas.
