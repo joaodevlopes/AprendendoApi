@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API RICK AND MORTY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <h1>Rick and Morty Teste Api</h1>
+        
+        <h2>Busca de personagem</h2>
+        <label for="characterName">Nome do Personagem</label>
+        <input type="text" name="characterName" id="characterName" placeholder="Ex: Rick Sanchez">
+        
+        <label for="characterId">ID do Personagem</label>
+        <input type="number" name="characterId" id="characterId" placeholder="Ex: 1">
+
+        <hr>
+
+        <h2>Informações para exibir</h2>
+        <div class="checkbox-group">
+            <label for="name"><input type="checkbox" name="name" id="name" checked> Nome</label>
+            <label for="status"><input type="checkbox" name="status" id="status" checked> Status</label>
+            <label for="species"><input type="checkbox" name="species" id="species" checked> Espécie</label>
+            <label for="gender"><input type="checkbox" name="gender" id="gender"> Gênero</label>
+            <label for="origin"><input type="checkbox" name="origin" id="origin"> Planeta de origem</label>
+            <label for="episode"><input type="checkbox" name="episode" id="episode"> Episódios</label>
+        </div>
+
+        <hr>
+
+        <button type="submit" id="btn-go">Pesquisar</button>
+        <button type="reset" id="btn-reset">Limpar</button>
+    </form>
+
+    <div id="result-style">
+        <img src="" alt="" id="img">
+        <div id="content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

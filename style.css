@@ -1,0 +1,121 @@
+body {
+    background-color: #0a0a1a;
+    color: #e2e2e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+form {
+    background-color: rgba(30, 30, 60, 0.8);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+}
+
+h2 {
+    color: #42f4aa;
+    border-bottom: 1px solid #42f4aa;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #a0f0d0;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #1a1a3a;
+    border: 1px solid #42f4aa;
+    border-radius: 4px;
+    color: white;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #42f4aa;
+}
+
+button {
+    background-color: #42f4aa;
+    color: #0a0a1a;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #2ad899;
+    transform: translateY(-2px);
+}
+
+#btn-reset {
+    background-color: #ff3860;
+    color: white;
+}
+
+#btn-reset:hover {
+    background-color: #e82c52;
+}
+
+.result-style {
+    display: flex;
+    background-color: rgba(30, 30, 60, 0.8);
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+    gap: 20px;
+    align-items: center;
+}
+
+#img {
+    max-height: 200px;
+    border-radius: 10px;
+    border: 2px solid #42f4aa;
+}
+
+#content {
+    flex: 1;
+}
+
+#content p {
+    margin: 8px 0;
+    padding: 5px;
+    background-color: rgba(20, 20, 50, 0.5);
+    border-radius: 3px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #42f4aa;
+    margin: 20px 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .result-style {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #img {
+        margin-bottom: 20px;
+    }
+}
